@@ -8,8 +8,8 @@ This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to convert **hand
 ## 🎬 Demo
 <p align="center">
   <!-- Replace with your own GIF or video link -->
-  <a href="YOUR_DEMO_LINK_HERE">
-    <img src="https://img.shields.io/badge/▶-Watch%20Demo-blue?style=for-the-badge&logo=youtube" alt="Demo"/>
+ <a href="https://github.com/user-attachments/assets/632f9a83-8303-40d2-9c3f-5b905e190be8">
+    <img src="https://img.shields.io/badge/▶-Watch%20Demo-blue?style=for-the-badge&logo=screenrec" alt="Demo"/>
   </a>
 </p>
 
@@ -45,14 +45,14 @@ virtual-mouse/
 └── assets/                # (Optional) GIFs, videos, screenshots
 ```
 ---
-Installation Guide
-1️⃣ Clone this repository
+## Installation Guide
+### 1️⃣ Clone this repository
 ```bash
 git clone https://github.com/yourusername/virtual-mouse.git
 cd virtual-mouse
 ```
 
-2️⃣ (Optional but Recommended) Create a Virtual Environment
+### 2️⃣ (Optional but Recommended) Create a Virtual Environment
 ```bash
 # Windows
 python -m venv venv
@@ -63,12 +63,14 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-3️⃣ Install Dependencies
+
+### 3️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-4️⃣ Run the Program
+
+### 4️⃣ Run the Program
 ```bash
 python virtual_mouse.py
 ```
@@ -83,7 +85,8 @@ python virtual_mouse.py
 ```
 ---
 
-🚀 Future Enhancements
+
+## 🚀 Future Enhancements
 
 🔄 Dual-hand support (left & right hand).
 
@@ -96,7 +99,8 @@ python virtual_mouse.py
 ---
 
 
-🤝 Contributing
+
+## 🤝 Contributing
 
 Contributions are always welcome!
 
@@ -111,14 +115,16 @@ Contributions are always welcome!
 ---
 
 
-📜 License
+
+## 📜 License
 
 This project is licensed under the MIT License – free to use, modify, and distribute.
 
 ---
 
 
-👨‍💻 Author
+
+## 👨‍💻 Author
 
 Made with ❤️ by Sourav Sharma
 🔗 GitHub Profile
