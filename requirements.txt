@@ -1,0 +1,10 @@
+# Core libraries
+numpy
+opencv-python
+pyautogui
+
+# Hand tracking (Google Mediapipe)
+mediapipe==0.10.14
+
+# Optional - better performance
+protobuf>=4.25.3,<5
