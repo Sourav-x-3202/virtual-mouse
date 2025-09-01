@@ -1,11 +1,11 @@
-# 🖐️ Virtual Mouse with Hand Gestures  
+# Virtual Mouse with Hand Gestures  
 
 > Control your computer **without touching a mouse** – just by moving your hand in front of your webcam!  
 This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to convert **hand gestures into real-time mouse actions**.  
 
 ---
 
-## 🎬 Demo
+##  Demo
 <p align="center">
   <!-- Replace with your own GIF or video link -->
  <a href="https://github.com/user-attachments/assets/632f9a83-8303-40d2-9c3f-5b905e190be8">
@@ -15,20 +15,20 @@ This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to convert **hand
 
 ---
 
-## ✨ Features
-- 👆 **Cursor Control** – Move the mouse pointer using just your index finger.  
-- 🖱️ **Left Click** – Tap gesture (Index + Middle fingers).  
-- 🖱️ **Right Click** – Extended (Index + Middle + Ring fingers).  
-- 📜 **Scrolling** –  
-  - ✊ Closed fist → Scroll Down  
-  - 🖐️ Open palm → Scroll Up  
-- ⚡ **Real-time performance** with optimized tracking.  
-- 🧩 Works with standard webcams (no special hardware).  
-- 🔧 Easy to customize & extend with new gestures.  
+##  Features
+-  **Cursor Control** – Move the mouse pointer using just your index finger.  
+-  **Left Click** – Tap gesture (Index + Middle fingers).  
+-  **Right Click** – Extended (Index + Middle + Ring fingers).  
+-  **Scrolling** –  
+  -  Closed fist → Scroll Down  
+  -  Open palm → Scroll Up  
+- **Real-time performance** with optimized tracking.  
+-  Works with standard webcams (no special hardware).  
+- Easy to customize & extend with new gestures.  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Python 3.10+** (recommended)  
 - [OpenCV](https://opencv.org/) → Video frame processing  
 - [MediaPipe](https://mediapipe.dev/) → Hand landmark detection  
@@ -36,7 +36,7 @@ This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to convert **hand
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```bash
 virtual-mouse/
 │── virtual_mouse.py       # Main script (run this)
@@ -46,13 +46,13 @@ virtual-mouse/
 ```
 ---
 ## Installation Guide
-### 1️⃣ Clone this repository
+###  Clone this repository
 ```bash
 git clone https://github.com/yourusername/virtual-mouse.git
 cd virtual-mouse
 ```
 
-### 2️⃣ (Optional but Recommended) Create a Virtual Environment
+###  (Optional but Recommended) Create a Virtual Environment
 ```bash
 # Windows
 python -m venv venv
@@ -64,13 +64,13 @@ source venv/bin/activate
 ```
 
 
-### 3️⃣ Install Dependencies
+###  Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
 
-### 4️⃣ Run the Program
+###  Run the Program
 ```bash
 python virtual_mouse.py
 ```
@@ -86,37 +86,31 @@ python virtual_mouse.py
 ---
 
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
-🔄 Dual-hand support (left & right hand).
-
-🖼️ On-screen overlay showing recognized gestures.
-
-🎚️ Extra controls (volume, brightness, app switching).
-
-🤖 AI-based gesture customization for different users.
+- Dual-hand support (left & right hand).
+- On-screen overlay showing recognized gestures.
+- Extra controls (volume, brightness, app switching).
+- AI-based gesture customization for different users.
 
 ---
 
 
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are always welcome!
 
-🍴 Fork the repo
-
-🌱 Create a new branch (feature/your-feature)
-
-✨ Add your feature or fix
-
-🚀 Submit a Pull Request
+- Fork the repo
+- Create a new branch (feature/your-feature)
+- Add your feature or fix
+- Submit a Pull Request
 
 ---
 
 
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License – free to use, modify, and distribute.
 
@@ -124,12 +118,11 @@ This project is licensed under the MIT License – free to use, modify, and dist
 
 
 
-## 👨‍💻 Author
+##  Author
 
-Made with ❤️ by Sourav Sharma
+Made  by Sourav Sharma
 🔗 GitHub Profile
-
-⭐ If you like this project, don’t forget to star the repo! ⭐
+ If you like this project, don’t forget to star the repo! 
 
 
 
