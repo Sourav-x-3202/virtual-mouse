@@ -96,33 +96,33 @@ python virtual_mouse.py
 ---
 
 
+## Contributing
 
-##  Contributing
-
-Contributions are always welcome!
+Want to improve this project? Contributions are welcome!
 
 - Fork the repo
-- Create a new branch (feature/your-feature)
-- Add your feature or fix
-- Submit a Pull Request
+- Create your feature branch → git checkout -b feature/my-feature
+- Commit changes → git commit -m "Add my feature"
+- Push branch → git push origin feature/my-feature
+- Open a Pull Request
+
+---
+## Author
+
+**Sourav Sharma**
+Developer. Maker. Privacy-first AI enthusiast.
+Find me on GitHub → [@Sourav-x-3202](https://github.com/Sourav-x-3202)
 
 ---
 
 
+## Star This Project
 
-##  License
-
-This project is licensed under the MIT License – free to use, modify, and distribute.
+If you found this useful, helpful, or inspiring — please consider starring the repository.
+It helps others discover the project and keeps development going 
 
 ---
+## License
 
-
-
-##  Author
-
-Made  by Sourav Sharma
-🔗 GitHub Profile
- If you like this project, don’t forget to star the repo! 
-
-
-
+This project is licensed under the MIT License.
+© 2025 Sourav Sharma
