@@ -1,49 +1,67 @@
-# Virtual Mouse with Hand Gestures  
-
-> Control your computer **without touching a mouse** – just by moving your hand in front of your webcam!  
-This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to convert **hand gestures into real-time mouse actions**.  
+#  Virtual Mouse with Hand Gestures
+[![Python](https://img.shields.io/badge/python-3.10%20--%203.13-blue)](https://www.python.org/)  
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.12+-green?logo=opencv)](https://opencv.org/)  
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-0.10+-blueviolet)](https://mediapipe.dev/)  
+[![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-0.9.54-orange)](https://pyautogui.readthedocs.io/)  
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
 ---
 
-##  Demo
+> Control your computer **without touching a mouse** – simply move your hand in front of your webcam!  
+> This project uses **OpenCV**, **MediaPipe**, and **PyAutoGUI** to convert **hand gestures into real-time mouse actions**.
+
+---
+
+##  Demo Video
+
 <p align="center">
   <!-- Replace with your own GIF or video link -->
- <a href="https://github.com/user-attachments/assets/632f9a83-8303-40d2-9c3f-5b905e190be8">
+  <a href="https://github.com/user-attachments/assets/632f9a83-8303-40d2-9c3f-5b905e190be8" target="_blank">
     <img src="https://img.shields.io/badge/▶-Watch%20Demo-blue?style=for-the-badge&logo=screenrec" alt="Demo"/>
   </a>
 </p>
 
+<p align="center">
+  <b><i> Experience real-time hand gesture control – interact with your computer <u>without touching a mouse</u>! </i></b>
+</p>
+
+
+
 ---
 
 ##  Features
--  **Cursor Control** – Move the mouse pointer using just your index finger.  
--  **Left Click** – Tap gesture (Index + Middle fingers).  
--  **Right Click** – Extended (Index + Middle + Ring fingers).  
--  **Scrolling** –  
-  -  Closed fist → Scroll Down  
-  -  Open palm → Scroll Up  
-- **Real-time performance** with optimized tracking.  
--  Works with standard webcams (no special hardware).  
-- Easy to customize & extend with new gestures.  
+
+- **Cursor Movement** → Move the pointer using your **index finger**.  
+- **Left Click** → Tap gesture: **Index + Middle fingers**.  
+- **Right Click** → Tap gesture: **Index + Middle + Ring fingers**.  
+- **Scrolling** →  
+  -  **Fist** → Scroll Down  
+  -  **Open Palm** → Scroll Up  
+- **Real-time performance** with optimized gesture recognition.  
+- Works with **standard webcams** (no extra hardware needed).  
+- Easy to extend with **custom gestures**.  
 
 ---
 
 ##  Tech Stack
-- **Python 3.10+** (recommended)  
-- [OpenCV](https://opencv.org/) → Video frame processing  
+
+- **Python 3.10+** (recommended for best MediaPipe performance)  
+- [OpenCV](https://opencv.org/) → Video capture & frame processing  
 - [MediaPipe](https://mediapipe.dev/) → Hand landmark detection  
-- [PyAutoGUI](https://pyautogui.readthedocs.io/) → Mouse and scroll automation  
+- [PyAutoGUI](https://pyautogui.readthedocs.io/) → Mouse movement, clicks, and scroll automation  
 
 ---
 
 ##  Project Structure
+
 ```bash
 virtual-mouse/
-│── virtual_mouse.py       # Main script (run this)
-│── requirements.txt       # Dependencies
-│── README.md              # Documentation
-└── assets/                # (Optional) GIFs, videos, screenshots
+│── virtual_mouse.py       # Main script (run this to start the app)
+│── requirements.txt       # Python dependencies
+│── README.md              # Project documentation
+└── assets/                # Optional: GIFs, videos, screenshots
 ```
+
 ---
 ## Installation Guide
 ###  Clone this repository
@@ -74,24 +92,46 @@ pip install -r requirements.txt
 ```bash
 python virtual_mouse.py
 ```
-```
-| Gesture                  | Action      |
-| ------------------------ | ----------- |
-| ☝️ Index Finger          | Move cursor |
-| ✌️ Index + Middle        | Left click  |
-| 🤟 Index + Middle + Ring | Right click |
-| ✊ Fist                   | Scroll down |
-| 🖐️ Open Palm            | Scroll up   |
-```
+
 ---
+<table>
+  <thead>
+    <tr>
+      <th>Gesture</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color:#f2f2f2;">
+      <td>Index Finger</td>
+      <td>Move Cursor</td>
+    </tr>
+    <tr>
+      <td>Index + Middle Fingers</td>
+      <td>Left Click</td>
+    </tr>
+    <tr style="background-color:#f2f2f2;">
+      <td>Index + Middle + Ring</td>
+      <td>Right Click</td>
+    </tr>
+    <tr>
+      <td>Fist</td>
+      <td>Scroll Down</td>
+    </tr>
+    <tr style="background-color:#f2f2f2;">
+      <td>Open Palm</td>
+      <td>Scroll Up</td>
+    </tr>
+  </tbody>
+</table>
 
-
+---
 ##  Future Enhancements
 
-- Dual-hand support (left & right hand).
-- On-screen overlay showing recognized gestures.
-- Extra controls (volume, brightness, app switching).
-- AI-based gesture customization for different users.
+- **Dual-hand support** – Enable recognition of both hands simultaneously.
+- **On-screen overlay** – Show detected gestures in real time.
+- **Extended controls** – Volume, brightness, and application switching.
+- **AI gesture customization** – Personalize gestures per user for accessibility.
 
 ---
 
@@ -101,9 +141,9 @@ python virtual_mouse.py
 Want to improve this project? Contributions are welcome!
 
 - Fork the repo
-- Create your feature branch → git checkout -b feature/my-feature
-- Commit changes → git commit -m "Add my feature"
-- Push branch → git push origin feature/my-feature
+- Create your feature branch → ```git checkout -b feature/my-feature```
+- Commit changes → ```git commit -m "Add my feature"```
+- Push branch → ```git push origin feature/my-feature```
 - Open a Pull Request
 
 ---
